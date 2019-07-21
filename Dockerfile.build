@@ -1,0 +1,3 @@
+FROM gvre/php72
+LABEL maintainer="gvre@gvre.gr"
+RUN php -v

@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "files": [ "src/Math.php" ]
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "phpmd/phpmd": "^2.6"
+    },
+
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
