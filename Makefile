@@ -1,7 +1,7 @@
 .PHONY: staging production build_staging build_production test lint
 
 # main targets are staging, production
-staging: build_staging lint test
+staging: build_staging
 production: build_production
 
 build_staging:
